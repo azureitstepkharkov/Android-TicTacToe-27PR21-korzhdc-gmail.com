@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80cbc4"
+    android:orientation="vertical"
+    android:textAlignment="center">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/newGame"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:text="@string/new_game"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#f5f52e"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/recTable"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/recTable"
+            android:textAlignment="center"
+            android:textColor="#f5f52e"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/about"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:onClick="clickAboutButton"
+            android:text="@string/about"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#f5f52e"
+            android:textSize="50sp" />
+    </FrameLayout>
+</FrameLayout>
+
